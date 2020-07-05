@@ -1,0 +1,38 @@
+$bgColorPrimary: #007bff;
+$bgColorSecondary: #6C757D;
+$ColorClose: gray;
+
+
+.btn {
+  padding: 12px 12px;
+  color: black;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: $bgColorPrimary;
+  color: white;
+  &:hover{
+    background-color: darken($bgColorPrimary, 15);
+  }
+}
+
+.btn-secondary {
+  background-color: $bgColorSecondary;
+  color: white;
+  &:hover{
+    background-color: darken($bgColorSecondary, 15);
+  }
+}
+
+.btn-close {
+  background-color: inherit;
+  padding: 0;
+  color: $ColorClose;
+  font-size: 30px;
+  &:hover, &:active {
+    color: darken($ColorClose, 20);
+  }
+}

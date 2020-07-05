@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box; }
+
+body, p, div {
+  padding: 24px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: 500; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.card {
+  display: flex;
+  flex-direction: column; }
+
+.card__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: #C8C8C8 solid 1px;
+  padding: 16px;
+  font-size: 1.25rem; }
+
+.card__description {
+  border-left: #C8C8C8 solid 1px;
+  border-right: #C8C8C8 solid 1px;
+  padding: 16px;
+  width: 466px; }
+
+.btn-box {
+  border: #C8C8C8 solid 1px;
+  padding: 12px;
+  width: 466px;
+  text-align: right; }
+
+.btn {
+  padding: 12px 12px;
+  color: black;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px; }
+
+.btn-primary {
+  background-color: #007bff;
+  color: white; }
+  .btn-primary:hover {
+    background-color: #0056b3; }
+
+.btn-secondary {
+  background-color: #6C757D;
+  color: white; }
+  .btn-secondary:hover {
+    background-color: #494f54; }
+
+.btn-close {
+  background-color: inherit;
+  padding: 0;
+  color: gray;
+  font-size: 30px; }
+  .btn-close:hover, .btn-close:active {
+    color: #4d4d4d; }
+
+/*# sourceMappingURL=style.css.map */

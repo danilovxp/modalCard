@@ -1,0 +1,29 @@
+$border: #C8C8C8 solid 1px;
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: $border;
+  padding: 16px;
+  font-size: 1.25rem;
+}
+
+.card__description {
+  border-left: $border;
+  border-right: $border;
+  padding: 16px;
+  width: 466px;
+}
+
+.btn-box {
+  border: $border;
+  padding: 12px;
+  width: 466px;
+  text-align: right;
+}
